@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.poorna-chandra {
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  padding: 10px 1vw;
+  align-items: flex-start;
+  margin: 0px auto;
+  /* flex-wrap: nowrap; */
+
+  /* flex-wrap: nowrap; */
+  /* flex-grow: 1; */
+}
+.image-pid {
+  width: 45vw;
+}
+.product-item-des-col {
+  width: 45vw;
+}
+.pid-product-item-image {
+  width: 35vw;
+  margin: 10px auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: inline;
+}
+.pid-rating-container {
+  display: flex;
+  background-color: black;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.pid-rating {
+  background-color: blue;
+  padding: 5px 10px;
+}
+.hr {
+  width: 100%;
+}
+.qty-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto 0px;
+}
+.cart-button {
+  background: #44f;
+  color: white;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.similar-products {
+  display: flex;
+  flex-direction: column;
+}
+.pc {
+  display: flex;
+  flex-direction: column;
+}
+.pid-product-item {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 1%;
+  width: calc(95%);
+}
+.pid-thumbnail {
+  width: calc(95%);
+}
+.mobile {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 2vw;
+}
+.sh {
+  padding: inherit;
+  width: 95%;
+  margin: auto;
+}
+.b {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.fail-image {
+  width: 500px;
+}
+.fail-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
